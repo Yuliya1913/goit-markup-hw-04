@@ -171,7 +171,11 @@ color: var(--accent-color);
 }
 
 .auth-nav .link {
-       
+    display: inline-flex;
+    align-items: center;
+    color: currentColor;
+
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -179,6 +183,29 @@ color: var(--accent-color);
     color: var(--text-color);
 }
 
+
+.auth-nav .link.envelope::before{
+    display: inline-flex;
+    content: " ";
+    width: 16px;
+    height: 12px;
+    background-size: contain;
+    background-image: url(../images/icons.svg/envelope.svg);
+    margin-right: 10px;
+
+}
+
+.auth-nav .link.smartphone::before {
+    content: " ";
+    width: 10px;
+    height: 16px;
+    background-size: contain;
+    
+    background-image: url(../images/icons.svg/smartphone.svg);
+    margin-right: 10px;
+
+
+}
 /*--------------- main-------------- */
 
 /* bg */
@@ -187,7 +214,22 @@ color: var(--accent-color);
     padding-top: 200px;
     padding-bottom: 200px;
    
-    background-color:var(--background-color-third);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color:#C4C4C4;
+    background-image: linear-gradient(
+     to right,
+    rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/section-bg/Img.jpg);
+           
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-left: auto;
+    margin-right: auto;
  
 }
   
@@ -367,6 +409,23 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+}
+
+/*  Постійні клієнти*/
+
+
+
+
+.clients-title {
+    
+    
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
 }
 
 /* footer */
