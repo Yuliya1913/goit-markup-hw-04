@@ -344,9 +344,6 @@ color: var(--accent-color);
 
 }
 
-.antenna-icon {
-    
-}
 
 .activity-title {
     margin-bottom: 10px;
@@ -422,8 +419,7 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;  
-    
-    letter-spacing: 0.03em;
+        letter-spacing: 0.03em;
     
 }
 
@@ -433,6 +429,7 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin-bottom: 16px;
 }
 
 .social-list {
@@ -467,21 +464,61 @@ color: var(--accent-color);
 
 /*  Постійні клієнти*/
 
-
-
-
 .clients-title {
-    
-    
-    
+
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    
+    margin-bottom: 50px;
+
+}
+.clients-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.clients {
+    width: 170px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #AFB1B8;
+}
+
+.clients-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+        
+} 
+
+.clients-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 60px;
+    color: #AFB1B8;
+   
     
 }
 
+.clients-icon {
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: #2196F3;
+   
+}
+
+.clients:hover,
+.clients:focus {
+    
+}
 /* footer */
 
 .footer {
