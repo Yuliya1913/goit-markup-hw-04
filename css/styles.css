@@ -175,7 +175,6 @@ color: var(--accent-color);
     align-items: center;
     color: currentColor;
 
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -183,8 +182,17 @@ color: var(--accent-color);
     color: var(--text-color);
 }
 
+.envelope-icon, .smartphone-icon {
+    margin-right: 10px;
+    fill: currentColor;
 
-.auth-nav .link.envelope::before{
+}
+
+/* .smartphone-icon {
+    margin-right: 10px;
+} */
+
+/* .auth-nav .link.envelope::before{
     display: inline-flex;
     content: " ";
     width: 16px;
@@ -205,7 +213,7 @@ color: var(--accent-color);
     margin-right: 10px;
 
 
-}
+} */
 /*--------------- main-------------- */
 
 /* bg */
