@@ -426,39 +426,20 @@ color: var(--accent-color);
     height: 44px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    outline: 2px solid orange;
     color: #AFB1B8;
+}
+
+
+.social-icon {
+    fill: currentColor;
 }
 
 
 .social-link:focus,
 .social-link:hover {
     color:#FFFFFF;
-   background-color: #188CE8;
+    background-color: #188CE8;
 }
-
-/* .social-icon {
-    fill: #AFB1B8;
-}
-
-.social-link:hover .social-icon
-.social-link:focus .social-icon {
-    fill: #2196F3;
- }
- */
-
-/* .social-item:focus {
-background-color: #2196F3;
-fill: #FFFFFF;
-}
-
-.social-link:hover,
-.social-link:focus {
-    fill: #FFFFFF;
-} */
-
-
-
 
 /*  Постійні клієнти*/
 
