@@ -529,6 +529,10 @@ color: var(--accent-color);
 
 }
 
+
+.footer-left {
+    margin-right: 70px;
+}
 .footer .footer-logo {
     margin-bottom: 20px;
     display: block;
@@ -573,9 +577,65 @@ margin-bottom: 9px;
 .footer-list .footer-item:hover,
 .footer-list .footer-item:focus {
     color: var(--accent-color);
-} */
+} 
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+}
+
+.footer-social {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 
+}
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF 10%;
+    
+    color: #FFFFFF;
+
+
+}
+
+
+.footer-social-icon {
+    color: currentColor;
+    
+}
+
+
+
+
+
+.social-link:focus,
+.social-link:hover {
+    color: #FFFFFF;
+    background-color: #188CE8;
 
 /*----------------------Портфоліо------------------ */
 
