@@ -645,12 +645,6 @@ color: var(--accent-color);
  
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
-}
-
 .portfolio-filter .button {
     padding-top: 6px;
     padding-bottom: 6px;
@@ -671,10 +665,11 @@ color: var(--accent-color);
     cursor: pointer;
 }
 
-.portfolio-filter .button:hover,
-.portfolio-filter .button:focus {
+.portfolio-item .button:hover,
+.portfolio-item .button:focus {
  color: var(--white-color);
  background-color: var(--accent-color);
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .project-list {
@@ -687,11 +682,21 @@ color: var(--accent-color);
     flex-basis: calc((100% - 60px) / 3);
 
 }
-.project-item:hover,  
+/* .project-item:hover,  
 .project-item:focus {
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
-    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 1 4px 6px 0 rgba(0, 0, 0, 0.16);
+} */
+
+.project-link:hover,
+.project-link:focus {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 1 4px 6px 0 rgba(0, 0, 0, 0.16);
+
 }
+
 
 .project-infa {
     padding: 24px;
